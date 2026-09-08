@@ -11,7 +11,7 @@ python-multipart==0.0.9
 starlette==0.37.2
 
 # --- Audio processing ---
-pyaudio==0.2.14
+pyaudio==0.2.14; sys_platform == "win32"
 numpy==1.26.4
 sounddevice==0.4.7
 
